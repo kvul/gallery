@@ -1,0 +1,162 @@
+body {
+	padding: 45px 0 0 0px; 
+	margin: 0px; 
+	font-family: arial;
+	font-size: 10pt;
+	background: #ECF0F1;
+}
+
+td
+{
+	font-family: arial;
+	font-size: 10pt;
+	color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea
+{
+	border: 2px solid rgba(58, 87, 149, 0.3);
+	padding: 4px;
+	color: #6C767D;
+}
+
+input[type="button"]
+{
+	background: rgba(58, 87, 149, 0.3);
+	color: #ffffff;
+}
+
+A {
+  font-family: arial;
+  color: #3A5795;
+  text-decoration: none;
+  -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  /* ...and now for the proper property */
+  transition:.3s;
+}
+
+A:visited {
+  color: #3A5795;
+  text-decoration: none;
+}
+
+A:active {
+  color: #3A5795;
+  text-decoration: none;
+}
+
+A:hover {
+  color: #3399ff;
+  text-decoration: none;
+}
+
+.marginLeft10
+{
+	margin-left: 10px;
+}
+
+.marginRight10
+{
+	margin-right: 10px;
+}
+
+.marginTop10
+{
+	margin-top: 10px;
+}
+
+.marginBottom10
+{
+	margin-bottom: 10px;
+}
+
+.loadingWrapper {
+	width: 100%; padding: 10px; text-align: center;
+}
+
+.pageHint
+{
+	margin: 20px 0 20px 0;
+	font-family: 'Titillium Web', sans-serif;
+    line-height: 40px;
+    text-transform: uppercase;
+	font-weight: 700;
+	color: rgba(58, 87, 149, 0.6);
+}
+
+.pointer
+{
+	cursor: pointer;
+}
+
+.pageContent
+{
+	padding: 20px 0 20px 0;
+	width: 100%;
+}
+
+.imageItem 
+{
+    display: inline-block;
+    margin: 0 15px 15px 0;
+}
+
+.imageArea
+{
+	font-size: 8pt;
+}
+
+#return-to-top {
+	font-size: 8pt;
+    display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: red;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+	
+	z-index:100;
+}
+
+#return-to-top > span:before {
+  content: "\f106";
+}
+
+#return-to-top:hover {
+    color: #e8e9ea;
+    background: #3A5795;
+}
+
+.zoomInButton,
+.zoomOutButton {
+	z-index:100;
+	position: fixed;
+	top: 70px;
+	right: 10px;
+	font-size: 8pt;
+	width: 30px;
+	height: 30px;
+	padding: 0px;
+	opacity: 0.6;
+}
+
+.zoomOutButton {
+	top: 105px;
+}
